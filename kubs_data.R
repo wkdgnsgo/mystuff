@@ -2,6 +2,7 @@ library(stringr)
 library(maps)
 library(dplyr)
 
+# I scraped data by myself from a Facebook page
 data("world.cities")
 
 american_cities <- world.cities %>% filter(country.etc == "USA")
